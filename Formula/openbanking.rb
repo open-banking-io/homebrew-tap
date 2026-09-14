@@ -3,28 +3,28 @@
 class Openbanking < Formula
   desc "open-banking.io command line — read, sync and connect your bank data locally"
   homepage "https://open-banking.io"
-  version "0.2.17"
+  version "0.2.18"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.17/openbanking_0.2.17_darwin_arm64.tar.gz"
-      sha256 "c003edfd444265eb427ba52374a0647e9e906155df6e91bf5a815b88327a8bcb"
+      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.18/openbanking_0.2.18_darwin_arm64.tar.gz"
+      sha256 "43e08e005414e95d730c1d07db7907ebf752d219b534499293b66254b963d389"
     end
     on_intel do
-      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.17/openbanking_0.2.17_darwin_amd64.tar.gz"
-      sha256 "fadbccde7d17ee86ef5d5190002fed55eba4717c01ca017bf66db8184b5d0c07"
+      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.18/openbanking_0.2.18_darwin_amd64.tar.gz"
+      sha256 "4c67f6cfebde005f8e14ea700196bfef91a2f11bad9c72773a512da6d8af37b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.17/openbanking_0.2.17_linux_arm64.tar.gz"
-      sha256 "652075aa601c028cb113ea030b4395b0f220495db10931b8d1347256911399b6"
+      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.18/openbanking_0.2.18_linux_arm64.tar.gz"
+      sha256 "e88b32287a0dd7ffad0c7b653b692bae44bc6d95c4bdf8ea5fb57feabffd52c3"
     end
     on_intel do
-      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.17/openbanking_0.2.17_linux_amd64.tar.gz"
-      sha256 "bae3db8f4ecc4fa75d91c7e373e5c946bc79299f0df4a0d12b930af9e5ef8d27"
+      url "https://github.com/open-banking-io/clients/releases/download/cli/v0.2.18/openbanking_0.2.18_linux_amd64.tar.gz"
+      sha256 "f98bab8218591361b28285fd3fcf131e5a61e0556bb50e9f2c074e5b04ae8038"
     end
   end
 
